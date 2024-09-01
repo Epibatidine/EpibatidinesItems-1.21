@@ -1,5 +1,6 @@
 package github.epibatidine.epibatidinesitems;
 
+import github.epibatidine.epibatidinesitems.item.ModItemGroups;
 import github.epibatidine.epibatidinesitems.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class EpibatidinesItems implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

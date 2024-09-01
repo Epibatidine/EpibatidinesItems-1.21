@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "epibatidinesitems:item/linted_hat"
+    "layer0": "epibatidinesitems:item/banded_hat"
   }
 }
