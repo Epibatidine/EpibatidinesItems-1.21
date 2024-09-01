@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/Epibatidine",
-		"sources": "https://github.com/Epibatidine"
+		"sources": "https://github.com/Epibatidine/EpibatidinesItems-1.21"
 	},
-	"license": "",
+	"license": "CC0 1.0",
 	"icon": "assets/epibatidinesitems/icon.png",
 	"environment": "*",
 	"entrypoints": {
