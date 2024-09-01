@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "epibatidinesitems",
+	"version": "${version}",
+	"name": "Epibatidine's Items",
+	"description": "Mod made through tutorials. Adds hats.",
+	"authors": [
+		"Epibatidine"
+	],
+	"contact": {
+		"homepage": "https://github.com/Epibatidine",
+		"sources": "https://github.com/Epibatidine"
+	},
+	"license": "",
+	"icon": "assets/epibatidinesitems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"github.epibatidine.epibatidinesitems.EpibatidinesItems"
+		],
+		"fabric-datagen": [
+			"github.epibatidine.epibatidinesitems.EpibatidinesItemsDataGenerator"
+		],
+		"client": [
+			"github.epibatidine.epibatidinesitems.EpibatidinesItemsClient"
+		]
+	},
+	"mixins": [
+		"epibatidinesitems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
